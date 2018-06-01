@@ -1,0 +1,6 @@
+.gallery>div.col-md-4 {
+    padding: 5px;
+}
+.gallery img {
+    max-width: 100%;
+}
