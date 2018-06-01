@@ -1,6 +1,11 @@
-.gallery>div.col-md-4 {
-    padding: 5px;
+.gallery>div.col-md-3 {
+    padding: 10px;
 }
 .gallery img {
     max-width: 100%;
+    transition: 0.250s ease;
+}
+.gallery img:hover{
+    filter:drop-shadow(4px 4px 4px gray);
+    transform: scale(1.1,1.1);
 }
